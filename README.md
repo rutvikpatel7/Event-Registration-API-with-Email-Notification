@@ -1,160 +1,177 @@
-# Event Registration Web API
+# 🎟️ Event Registration Web API
 
-A comprehensive ASP.NET Core Web API for managing event registrations with email notifications.
+A robust ASP.NET Core Web API for managing events and user registrations, complete with email notifications and business rule enforcement.
 
-## Features
+---
 
-- **Event Management**: Create, retrieve, update, and delete events
-- **User Registration**: Register users for events with automatic email confirmations
-- **Business Rules Enforcement**:
-  - Event capacity validation
-  - Duplicate email prevention per event
-  - Past event registration prevention
-  - Cascade delete protection
-- **Email Notifications**: Support for multiple email services (Console, SendGrid, Mailtrap)
-- **RESTful API**: Complete API documentation via Swagger
+## 🚀 Features
 
-## Prerequisites
+- Event Management – Create, view, and delete events  
+- User Registration – Register attendees with email confirmation  
+- Business Rules Enforcement  
+  - Event capacity limits  
+  - No duplicate registrations per event  
+  - Registration allowed for future events only  
+  - Prevent deleting events with registrations  
+- Email Notifications  
+  - Console (default)  
+  - SendGrid  
+  - Mailtrap  
+- RESTful API with Swagger documentation  
 
-- .NET 6.0 or higher
-- SQL Server LocalDB or SQL Server
-- (Optional) SendGrid or Mailtrap account for email services
+---
 
-## Setup Instructions
+## 🛠️ Tech Stack
 
-### 1. Clone the Repository
+- ASP.NET Core Web API  
+- Entity Framework Core  
+- SQL Server / LocalDB  
+- Swagger (OpenAPI)  
 
-\`\`\`bash
+---
+
+## 📋 Prerequisites
+
+- .NET 6.0 or later  
+- SQL Server or SQL Server LocalDB  
+- (Optional) SendGrid or Mailtrap account  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+
+```bash
 git clone https://github.com/rutvikpatel7/Event-Registration-API-with-Email-Notification.git
 cd EventRegistrationAPI
-\`\`\`
+```
 
-### 2. Install Dependencies
+### 2. Restore Dependencies
 
-\`\`\`bash
+```bash
 dotnet restore
-\`\`\`
+```
 
-### 3. Configure Database Connection
+### 3. Configure Database
 
-Update `appsettings.json` with your SQL Server connection string:
+Update **appsettings.json**:
 
-\`\`\`json
+```json
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_SERVER;Database=EventRegistrationDB;TrustServerCertificate=true;"
 }
-\`\`\`
+```
 
-### 4. Apply Database Migrations
+### 4. Apply Migrations
 
-\`\`\`bash
+```bash
 dotnet ef database update
-\`\`\`
+```
 
 ### 5. Configure Email Service
 
-#### Option A: Console Email Service (Default - No Setup Required)
+#### Console (Default)
+No setup required — emails are logged to console.
 
-No configuration needed. Emails will be logged to the console.
+#### SendGrid
 
-#### Option B: SendGrid
-
-1. Get your API key from [SendGrid](https://sendgrid.com/)
-2. Update `appsettings.json`:
-
-\`\`\`json
-"EmailService": {
-  "Type": "SendGrid"
-},
+```json
+"EmailService": { "Type": "SendGrid" },
 "SendGrid": {
-  "ApiKey": "your-sendgrid-api-key",
+  "ApiKey": "your-api-key",
   "FromEmail": "your-email@sendgrid.com",
   "SenderName": "Event Registration System"
 }
-\`\`\`
+```
 
-Or use User Secrets:
+Or use secrets:
 
-\`\`\`bash
+```bash
 dotnet user-secrets init
-dotnet user-secrets set "SendGrid:ApiKey" "SG.U20MiJoISwKpdQ-B8AdDsg..."
+dotnet user-secrets set "SendGrid:ApiKey" "your-key"
 dotnet user-secrets set "EmailService:Type" "SendGrid"
-dotnet user-secrets set "SendGrid:FromEmail" "xit.dev43@gmail.com"
-\`\`\`
+```
 
-#### Option C: Mailtrap
+#### Mailtrap
 
-1. Get your API token from [Mailtrap](https://mailtrap.io/)
-2. Update `appsettings.json`:
-
-\`\`\`json
-"EmailService": {
-  "Type": "Mailtrap"
-},
+```json
+"EmailService": { "Type": "Mailtrap" },
 "Mailtrap": {
-  "ApiToken": "your-mailtrap-api-token",
+  "ApiToken": "your-token",
   "FromEmail": "your-email@mailtrap.io",
   "SenderName": "Event Registration System"
 }
-\`\`\`
+```
 
-### 6. Run the Application
+### 6. Run the API
 
-\`\`\`bash
+```bash
 dotnet run
-\`\`\`
+```
 
-The API will be available at `https://localhost:5001` and Swagger UI at `https://localhost:5001/swagger`
+- API Base URL: `https://localhost:5001`  
+- Swagger UI: `https://localhost:5001/swagger`
 
-## API Endpoints
+---
+
+## 📡 API Endpoints
 
 ### Events
 
-- **Create Event**: `POST /api/events`
-- **Get All Events**: `GET /api/events`
-- **Get Event by ID**: `GET /api/events/{id}`
-- **Delete Event**: `DELETE /api/events/{id}`
+| Method | Endpoint | Description |
+|-------|----------|-------------|
+| POST | `/api/events` | Create event |
+| GET | `/api/events` | Get all events |
+| GET | `/api/events/{id}` | Get event by ID |
+| DELETE | `/api/events/{id}` | Delete event |
 
 ### Registrations
 
-- **Register for Event**: `POST /api/registrations/events/{eventId}/register`
-- **Get Event Registrations**: `GET /api/registrations/events/{eventId}`
-- **Cancel Registration**: `DELETE /api/registrations/{registrationId}`
+| Method | Endpoint | Description |
+|-------|----------|-------------|
+| POST | `/api/registrations/events/{eventId}/register` | Register for event |
+| GET | `/api/registrations/events/{eventId}` | List registrations |
+| DELETE | `/api/registrations/{registrationId}` | Cancel registration |
 
-## Request/Response Examples
+---
+
+## 🧪 Example Requests
 
 ### Create Event
 
-\`\`\`bash
-curl -X POST "https://localhost:5001/api/events" \\
-  -H "Content-Type: application/json" \\
-  -d '{
-    "title": "Tech Conference 2024",
-    "description": "Annual technology conference",
-    "date": "2024-06-15T09:00:00Z",
-    "capacity": 100,
-    "location": "Convention Center"
-  }'
-\`\`\`
+```bash
+curl -X POST https://localhost:5001/api/events \
+-H "Content-Type: application/json" \
+-d '{
+  "title": "Tech Conference 2024",
+  "description": "Annual technology conference",
+  "date": "2024-06-15T09:00:00Z",
+  "capacity": 100,
+  "location": "Convention Center"
+}'
+```
 
 ### Register for Event
 
-\`\`\`bash
-curl -X POST "https://localhost:5001/api/registrations/events/1/register" \\
-  -H "Content-Type: application/json" \\
-  -d '{
-    "name": "John Doe",
-    "email": "john@example.com"
-  }'
-\`\`\`
+```bash
+curl -X POST https://localhost:5001/api/registrations/events/1/register \
+-H "Content-Type: application/json" \
+-d '{
+  "name": "John Doe",
+  "email": "john@example.com"
+}'
+```
 
-## Database Schema
+---
 
-### Events Table
+## 🗄️ Database Schema
+
+### Events
 
 | Column | Type | Constraints |
 |--------|------|-------------|
-| Id | INT | PRIMARY KEY |
+| Id | INT | PK |
 | Title | NVARCHAR(200) | NOT NULL |
 | Description | NVARCHAR(1000) | |
 | Date | DATETIME2 | NOT NULL |
@@ -162,74 +179,83 @@ curl -X POST "https://localhost:5001/api/registrations/events/1/register" \\
 | Location | NVARCHAR(300) | NOT NULL |
 | CreatedAt | DATETIME2 | NOT NULL |
 
-### Registrations Table
+### Registrations
 
 | Column | Type | Constraints |
 |--------|------|-------------|
-| Id | INT | PRIMARY KEY |
-| EventId | INT | FOREIGN KEY, NOT NULL |
+| Id | INT | PK |
+| EventId | INT | FK, NOT NULL |
 | Name | NVARCHAR(200) | NOT NULL |
 | Email | NVARCHAR(256) | NOT NULL |
 | RegisteredAt | DATETIME2 | NOT NULL |
 
-**Unique Index**: (EventId, Email) - Prevents duplicate registrations
-
-## Business Rules
-
-1. **Event Capacity**: Cannot exceed the defined capacity
-2. **Duplicate Prevention**: Same email cannot register twice for the same event
-3. **Future Events Only**: Registration is only allowed for future events
-4. **Delete Protection**: Events with existing registrations cannot be deleted
-
-## Error Handling
-
-The API returns appropriate HTTP status codes:
-
-- `200 OK`: Successful GET request
-- `201 Created`: Successful resource creation
-- `204 No Content`: Successful DELETE request
-- `400 Bad Request`: Invalid input
-- `404 Not Found`: Resource not found
-- `409 Conflict`: Business rule violation
-- `500 Internal Server Error`: Server error
-
-## Testing with Postman
-
-A Postman collection is included in the repository. Import `EventRegistrationAPI.postman_collection.json` to test all endpoints.
-
-## Troubleshooting
-
-### Connection String Error
-
-Ensure SQL Server is running and the connection string is correct in `appsettings.json`.
-
-### Email Not Sending
-
-- Verify your API key or token is correct
-- Check that `appsettings.json` has the correct email service type
-- For development, switch to Console email service to verify registration flow
-
-### Migration Issues
-
-\`\`\`bash
-dotnet ef migrations remove
-dotnet ef migrations add InitialCreate
-dotnet ef database update
-\`\`\`
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code standards and contribution guidelines.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Support
-
-For issues or questions, please create an issue on GitHub.
-\`\`\`
+**Unique Index:** `(EventId, Email)`
 
 ---
 
-## 12. Postman Collection
+## 📏 Business Rules
+
+1. Event capacity cannot be exceeded  
+2. Same email cannot register twice for the same event  
+3. Only future events allow registration  
+4. Events with registrations cannot be deleted  
+
+---
+
+## ❗ Error Handling
+
+| Status Code | Meaning |
+|------------|---------|
+| 200 | Success |
+| 201 | Created |
+| 204 | Deleted |
+| 400 | Bad request |
+| 404 | Not found |
+| 409 | Business rule violation |
+| 500 | Server error |
+
+---
+
+## 📬 Postman Collection
+
+Import:  
+`EventRegistrationAPI.postman_collection.json`
+
+---
+
+## 🛠 Troubleshooting
+
+**DB Connection Issues**
+- Check SQL Server is running  
+- Verify connection string  
+
+**Emails Not Sending**
+- Validate API keys  
+- Confirm correct EmailService type  
+- Use Console mode for testing  
+
+**Migration Errors**
+
+```bash
+dotnet ef migrations remove
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+
+---
+
+## 🤝 Contributing
+
+See `CONTRIBUTING.md` for guidelines.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 💬 Support
+
+Open an issue on GitHub for bugs or questions.
