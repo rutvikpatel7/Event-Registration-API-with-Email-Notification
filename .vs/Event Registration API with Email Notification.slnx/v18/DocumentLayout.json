@@ -1,0 +1,420 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\CreateEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Data\\CreateEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\RegistrationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Controllers\\RegistrationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\EventsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Controllers\\EventsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\RegistrationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\RegistrationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\EventService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\EventService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\MailtrapEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\MailtrapEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\SendGridEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\SendGridEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\ConsoleEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\ConsoleEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Services\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\EventResponseDto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\DTOs\\EventResponseDto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Event.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Models\\Event.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\CreateEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\DTOs\\CreateEventDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventRegistrationAPI\\Models\\Registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\appsettings.json",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\appsettings.json",
+              "RelativeToolTip": "EventRegistrationAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-31T06:05:15.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Program.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Program.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:04:50.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Controllers\\RegistrationsController.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Controllers\\RegistrationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:04:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:03:43.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\RegistrationService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\RegistrationService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\RegistrationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:03:22.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\EventService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\EventService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\EventService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:02:27.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MailtrapEmailService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\MailtrapEmailService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\MailtrapEmailService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\MailtrapEmailService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\MailtrapEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:02:11.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SendGridEmailService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\SendGridEmailService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\SendGridEmailService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\SendGridEmailService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\SendGridEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:01:58.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConsoleEmailService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\ConsoleEmailService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\ConsoleEmailService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\ConsoleEmailService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\ConsoleEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:01:39.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Services\\IEmailService.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:01:20.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationResponseDto.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\DTOs\\RegistrationResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:00:59.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterForEventDto.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\DTOs\\RegisterForEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:00:50.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventResponseDto.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\EventResponseDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\DTOs\\EventResponseDto.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\EventResponseDto.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\DTOs\\EventResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:00:10.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateEventDto.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\CreateEventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Data\\CreateEventDto.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\CreateEventDto.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Data\\CreateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:59:10.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateEventDto.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\CreateEventDto.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\DTOs\\CreateEventDto.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\DTOs\\CreateEventDto.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\DTOs\\CreateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:57:26.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:57:11.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Models\\Registration.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Registration.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Models\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:56:39.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventRegistrationAPI\\Models\\Event.cs",
+              "ToolTip": "D:\\Rutvik\\Project Repository\\Event Registration API with Email Notification\\EventRegistrationAPI\\Models\\Event.cs",
+              "RelativeToolTip": "EventRegistrationAPI\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:56:01.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
