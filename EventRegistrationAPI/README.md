@@ -216,10 +216,33 @@ curl -X POST https://localhost:5001/api/registrations/events/1/register \
 
 ---
 
-## 📬 Postman Collection
+## 🚧 Future Enhancements
 
-Import:  
-`EventRegistrationAPI.postman_collection.json`
+### Planned Features
+
+#### 1. User Authentication & Authorization 🔐
+- JWT (JSON Web Token) authentication  
+- Role-based access control (Admin, Organizer, User)  
+- User account registration and login endpoints  
+- Email verification for user accounts  
+
+#### 2. Event Updates & Modifications ✏️
+- Update event details endpoint (`PUT /api/events/{id}`)  
+- Event status tracking (Draft, Published, Completed, Cancelled)  
+- Modify event date or capacity with automatic notifications to registrants  
+- Soft delete for events with audit trail  
+
+#### 3. Advanced Registration Features 📋
+- Waiting list when an event reaches full capacity  
+- Bulk registration import (CSV/Excel)  
+- Registration approval workflow  
+- Custom registration fields per event  
+
+#### 4. Search & Filtering 🔍
+- Full-text search for events  
+- Filter by date range, location, and capacity  
+- Pagination for large result sets  
+- Sorting by date, capacity, or popularity  
 
 ---
 
